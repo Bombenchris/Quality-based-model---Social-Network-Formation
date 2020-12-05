@@ -1,7 +1,7 @@
 import time
 import os
 import sqlite3
-from ..mining import twitch_crawler_settings
+import twitch_crawler_settings
 
 def get_top30(game, dedication_index):
     edge_db = '{}.db'.format(game)
@@ -9,6 +9,7 @@ def get_top30(game, dedication_index):
     c = conn.cursor()
     user_list = c.execute('SELECT Id FROM user_db where dedication > {} ORDER BY FOLLOWERS DESC LIMIT 30'.format(dedication_index)).fetchall()
     return user_list
+
 
 game = twitch_crawler_settings.game
 
