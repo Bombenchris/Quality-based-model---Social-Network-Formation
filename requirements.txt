@@ -1,0 +1,9 @@
+Scrapy
+matplotlib
+numpy
+twitchAPI
+scipy
+pandas
+tqdm
+powerlaw
+networkx

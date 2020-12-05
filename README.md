@@ -1,4 +1,2 @@
-# Quality-based-model---Social-Network-Formation
-Data Analysis on Twitch data 
-
-- Data-set will be uploaded later
+# Followers-of-social-media-influencer
+Crawling data, project "Emergence of scaling on the followers of social media influencer"
