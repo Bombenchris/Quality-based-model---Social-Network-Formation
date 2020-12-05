@@ -3,7 +3,7 @@ Crawling data, project "Emergence of scaling on the followers of social media in
 
 A few steps to setup the cralwing
 ----------------------------------------------------------------------------------------
-1. setup twitch_crawler_settings.py
+1. first setup twitch_crawler_settings.py
 
 2. run main.py 
 --- crawl the broadcasters list, the data will store to game.db
