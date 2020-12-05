@@ -72,7 +72,7 @@ class EdgesPipeline:
 twitch = Twitch(twitch_crawler_settings.edges_crawler_id, twitch_crawler_settings.edges_crawler_secrete)
 twitch.authenticate_app([])
 
-game = 'Chess'
+game = twitch_crawler_settings.game
 database = '{}.db'.format(game)
 
 # start the EdgesPipeline
