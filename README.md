@@ -2,7 +2,6 @@
 Crawling data, project "Emergence of scaling on the followers of social media influencer"
 
 A few steps to setup the cralwing
-In mining folder
 ----------------------------------------------------------------------------------------
 1. setup twitch_crawler_settings.py
 
