@@ -9,3 +9,6 @@ broadcasters_crawler_secrete = 'at31nwijhtzadwx0yu4zqg880ihvyk'
 
 edges_crawler_id = 'rymeeb9a5i9m5m7wumk28h85mvjkaf'
 edges_crawler_secrete = '8hjsyp28tb11qwgct56gq3x2a2geas'
+
+# specify the game
+game = 'Chess'

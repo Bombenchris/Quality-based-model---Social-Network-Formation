@@ -11,7 +11,7 @@ class twitch_follower(scrapy.Spider):
         'http://twitch.tv'
     ]
     items = FollowersItem()
-    game = 'Chess'
+    game = twitch_crawler_settings.game
 
     twitch = Twitch(twitch_crawler_settings.broadcasters_crawler_id,
                     twitch_crawler_settings.broadcasters_crawler_secrete)
