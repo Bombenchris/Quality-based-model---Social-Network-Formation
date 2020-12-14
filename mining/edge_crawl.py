@@ -3,7 +3,7 @@ from twitchAPI.twitch import Twitch
 from tqdm import tqdm
 import pandas as pd
 import time
-from ..mining import twitch_crawler_settings
+import twitch_crawler_settings
 
 
 class EdgesPipeline:
