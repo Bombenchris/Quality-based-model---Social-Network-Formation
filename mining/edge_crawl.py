@@ -67,6 +67,7 @@ class EdgesPipeline:
                     self.store_db(items)
                 except:
                     pass
+            time.sleep(1)
 
 
 twitch = Twitch(twitch_crawler_settings.edges_crawler_id, twitch_crawler_settings.edges_crawler_secrete)
